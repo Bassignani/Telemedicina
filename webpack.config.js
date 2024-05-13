@@ -67,8 +67,7 @@ module.exports = {
     devServer: {
         static: path.join(__dirname, 'dist'),
 		compress: true,
-		historyApiFallback: true,
-		port: 8080,
+		port: 0,
 		open: true,
         historyApiFallback: true,
     },

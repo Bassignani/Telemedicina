@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    max-height: 40px; 
+  }
+  
+  .center {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .center a {
+    margin: 0 10px; 
+  }
+  
+  .login {
+    margin-left: auto;
+  }

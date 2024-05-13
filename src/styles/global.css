@@ -1,3 +1,9 @@
 body {
-    background-color: #ff0000;
+    background-color: #979191;
+}
+
+p {
+    color: black; 
+    font-size: 18px; 
+    font-family: Arial, sans-serif; 
 }
