@@ -6,6 +6,7 @@ import Contact from "../pages/Contact";
 import Header from "@components/header/Header"; 
 import Footer from "@components/footer/Footer"; 
 import "@styles/global.css";
+import Specialties from "../pages/Specialties";
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route exact path="/specialties">
+            <Specialties />
           </Route>
         </Switch>
         <Footer />

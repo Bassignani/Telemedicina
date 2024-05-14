@@ -8,6 +8,9 @@
   
   .left-column {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Para centrar horizontalmente */
   }
   
   .right-column img {
@@ -25,15 +28,28 @@
   
   /* Estilos para la sección inferior */
   .bottom-section {
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-bottom: 80px;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: hsl(0, 7%, 74%);
-    font-size: 24px; /* Tamaño de la fuente */
-  font-weight: bold; /* Grosor de la fuente */
-  color: #333; /* Color del texto */
-  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    animation: changeText 6s infinite; /* Duración de la animación y bucle infinito */
   }
+  
+  @keyframes changeText {
+    0%, 33% {
+      content: "Conectamos pacientes con médicos por medio de videollamadas";
+    }
+    33%, 66% {
+      content: "Conectamos pacientes con médicos por medio de whatsapp";
+    }
+    66%, 100% {
+      content: "Conectamos pacientes con médicos por medio de llamadas telefónicas";
+    }
+  }
+  
