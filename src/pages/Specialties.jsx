@@ -1,6 +1,6 @@
 import React from "react";
 import "@styles/global.css";
-import "./specialties.css"; 
+import "@styles/specialties.css"; 
 import TM1 from '@images/TM1.png'; 
 import TM2 from '@images/TM2.png'; 
 import TM3 from '@images/TM3.png'; 

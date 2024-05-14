@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "@styles/global.css";
-import "./home.css";
+import "@styles/home.css";
 import Banner from '@images/banner-medico.png';
 
 
