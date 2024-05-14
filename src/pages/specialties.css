@@ -1,0 +1,27 @@
+.speciality-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para cada columna de especialidad */
+  .speciality-column {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para las imágenes de las especialidades */
+  .speciality-column img {
+    max-width: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para los párrafos de descripción de las especialidades */
+  .speciality-column p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
