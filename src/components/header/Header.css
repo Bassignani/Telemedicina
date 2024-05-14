@@ -2,11 +2,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    /* margin: 20px 0; */
+    margin-bottom: 20px;
+    width: 100%; 
+  }
+  
+  .logo {
+    margin-left: 40px; 
   }
   
   .logo img {
-    max-height: 40px; 
+    max-height: 80px; 
+    border-radius: 50%; 
   }
   
   .center {
@@ -15,9 +24,35 @@
   }
   
   .center a {
-    margin: 0 10px; 
+    margin: 0 20px; 
+    font-size: 18px; 
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+  }
+  
+  .center a:hover {
+    color: blue; 
   }
   
   .login {
-    margin-left: auto;
+    margin-right: 40px; 
+  }
+  
+  /* Media query para pantallas pequeñas */
+  @media only screen and (max-width: 768px) {
+    .logo {
+      margin-left: 20px; 
+    }
+  
+    .center a {
+      margin: 0 10px; 
+      font-size: 16px; 
+    }
+  
+    .login {
+      margin-right: 20px; 
+    }
   }
