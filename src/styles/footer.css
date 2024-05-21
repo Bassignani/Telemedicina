@@ -1,12 +1,19 @@
+@import '@styles/global.css';
+
 footer {
-    position: fixed; 
+    /* position: fixed;  */
     bottom: 0; 
-    width: 100%; 
-    background-color: #f0f0f0; 
-    padding: 20px; 
+    /* width: 100%;  */
+    /* background-color: #f0f0f0;  */
+    background-color: var(--green);
+    padding: 10px; 
     text-align: center; 
   }
-  
+  img .logo{
+    width: 20px;
+    border-radius: 50%;
+  }
+
   .logo {
     display: block; 
     margin-right: 20px; 

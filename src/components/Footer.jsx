@@ -6,11 +6,10 @@ const Footer = () => {
   return (
     <footer>
       <div className="logo">
-        <img src={Logo} alt="Logo" />
+        <img src={Logo} alt="Logo" className='logo'/>
       </div>
       <div className="center">
-        <p >By LimayDev</p>
-       
+        <p><a href="https://limaydev.com.ar" target='blanck'>By LimayDev</a></p>
       </div>
     </footer>
   );

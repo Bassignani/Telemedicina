@@ -1,5 +1,18 @@
+:root {
+    --white: #FFFFFF;
+    --grey: #f0f0f0;
+    --strong-grey: hsl(0, 7%, 74%);
+    --ligth-grey: #F6FCFF;
+    --green: #00C656;
+    --ligth-green: #B4EECF;
+    --strong-green: #00DB31;
+    --very-light-blue: #E5F8FD;
+    --ligth-blue: #F7F9FA;
+}
+
 body {
-    background-color: #979191;
+    /* background-color: #979191; */
+    background-color: var(--ligth-blue);
 }
 
 p {
