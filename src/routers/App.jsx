@@ -1,12 +1,13 @@
 import React from "react";
 import '@styles/global.css';
 import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
-import Home from "../pages/Home"; 
-import Contact from "../pages/Contact"; 
+import Home from "@pages/Home"; 
+import Contact from "@pages/Contact"; 
 import Header from "@components/Header"; 
 import Footer from "@components/Footer"; 
-import "@styles/global.css";
-import Specialties from "../pages/Specialties";
+
+import Specialties from "@pages/Specialties";
+import Shifts from "@pages/Shifts";
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
           </Route>
           <Route exact path="/specialties">
             <Specialties />
+          </Route>
+          <Route exact path="/shifts">
+            <Shifts />
           </Route>
         </Switch>
         <Footer />
